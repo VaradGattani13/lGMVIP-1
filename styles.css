@@ -1,0 +1,118 @@
+body{
+    margin:0;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+#indicators {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+#ulindicators{
+    text-align: left;
+    float: left;
+    left: 2% !important;
+    right: inherit;
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    color: yellow;
+}
+#button1{
+    background-color: #ffff66;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#button2{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#button3{
+    background-color: #ffff66;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#button3:hover{
+    transition-duration: 0.5s;
+    background-color: #400080;
+    color:white;
+}
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#marginstyle{
+    margin-left:10px;
+    margin-top:10px;
+}
+#projectbutton{
+    color:  #706D7A;
+    border: none;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5%;
+}
+#divid:hover #divpro{
+    transition-duration: 0.5s;
+    background-color: #ffff66 !important;
+}
+#divid:hover #projectbutton{
+    transition-duration: 0.5s;
+    background-color: purple;
+    color: white;
+}
+#divpricing{
+    color: #2C3E50 ;
+    font-weight: 700;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: -1;
+    text-align: center;
+}
+#imageid{
+    border-radius: 50%;
+}
+#imageid:hover{
+    transition-duration: 0.5s;
+    opacity: 0.2;
+    cursor: pointer;
+}
